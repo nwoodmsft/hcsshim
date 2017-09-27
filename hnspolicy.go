@@ -76,7 +76,7 @@ const (
 
 type ACLPolicy struct {
 	Type            PolicyType `json:"Type"`
-	Id		string
+	Id              string
 	Protocols       string
 	Action          ActionType
 	Direction       DirectionType
